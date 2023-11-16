@@ -1,0 +1,41 @@
+.overlay {
+    background-image:  linear-gradient(90deg, #02080EAB 42%, #02080E69 52%);
+    background-color: transparent;
+    width: 119.5rem;
+    height: 48rem;
+    position: relative;
+    .wallpaper {
+        height: 80vh;
+        width: 100%;
+        position: absolute; 
+        z-index: -1;
+        opacity: 90%;
+    }
+    .herotext {
+        color: white;
+        @include font(('Cairo',sans-serif),2.5rem,700);
+        position: absolute;
+        top: 15rem;
+        left: 30rem;
+        width: 30%;
+    }
+    .herosmalltext {
+        position: absolute;
+        top: 25rem;
+        left: 30rem;
+        list-style: none;
+        color: #a8a8a8;
+        @include font(('Cairo', sans-serif),1rem,700);
+        li {
+            padding: 1rem;
+            &::before {
+                content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                color: orange; /* Change the color */
+                font-weight: bold; /* If you want it to be bold */
+                display: inline-block; /* Needed to add space between the bullet and the text */
+                margin-left: 1rem;
+                width: 2rem;
+            }
+        }
+    }
+}

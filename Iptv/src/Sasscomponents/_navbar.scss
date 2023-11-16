@@ -1,0 +1,20 @@
+.navbar {
+    @include flex(space-evenly,center,2rem,row);
+    padding: 1rem;
+    background-color: #141414;
+    .logo {
+        width: 10%;
+    }
+    .nav-items {
+        @include flex(center,center,2rem,row);
+        color: white;
+        margin-right: 15rem;
+        font-family: 'Cairo', sans-serif;
+        font-weight: 700;
+        ul {
+            @include flex(space-between,center,4rem,row);
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+}
