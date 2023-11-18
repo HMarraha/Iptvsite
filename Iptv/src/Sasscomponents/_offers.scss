@@ -1,0 +1,16 @@
+.offers {
+    width: 60%;
+    margin: auto;
+    margin-top: 8rem;
+    margin-right: 25rem;
+    @include flex(center,center,2rem,row);
+    text-align: center;
+    h1 {
+        color: white;
+        @include font(('Cairo',sans-serif),2rem,700);
+    }
+    p {
+        color: grey;
+        @include font(('Cairo',sans-serif),1rem,700);
+    }
+}

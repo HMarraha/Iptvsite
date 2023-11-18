@@ -1,0 +1,20 @@
+.contact {
+    text-align: center;
+    margin-top: 8rem;
+    .contactus {
+        @include font(('Cairo', sans-serif),4rem,700);
+        color: white;
+    }
+    .contactflex {
+        @include flex(center,center,6rem,row);
+        margin-top: 4rem;
+        h1 {
+            @include font(('Cairo', sans-serif),2rem,700);
+            color: white;
+        }
+        p {
+            @include font(('Cairo', sans-serif),2rem,700);
+            color: grey;
+        }
+    }
+}

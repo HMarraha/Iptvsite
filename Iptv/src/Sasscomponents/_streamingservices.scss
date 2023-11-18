@@ -1,0 +1,22 @@
+.streamingservices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 12rem;
+    position: relative;
+    text-align: center;
+    .streamingserviceimage {
+        width: 80%;
+        opacity: 50%;
+        margin-left: 2rem;
+    }
+    h1 {
+        position: absolute;
+        top: 5rem;
+        color: white;
+        @include font(('Cairo', sans-serif),3rem,700);
+        text-shadow: black 2px 2px 5px;
+    }
+}

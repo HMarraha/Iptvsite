@@ -21,7 +21,7 @@ const Movieslider = () => {
   }, []);
 
   return (
-    <div className='moviesslidercontainer'>
+    <div id='moviesslidercontainer' className='moviesslidercontainer'>
       {loading && <p>Loading...</p>}
       {!loading && (
         <div className="tracker">

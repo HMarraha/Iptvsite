@@ -31,6 +31,10 @@
   list-style: none;
   cursor: pointer;
 }
+.navbar .nav-items ul a {
+  text-decoration: none;
+  color: white;
+}
 
 .overlay {
   background-image: linear-gradient(90deg, rgba(2, 8, 14, 0.6705882353) 42%, rgba(2, 8, 14, 0.4117647059) 52%);
@@ -107,8 +111,245 @@
   text-align: center;
 }
 
+.offers {
+  width: 60%;
+  margin: auto;
+  margin-top: 8rem;
+  margin-right: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+  text-align: center;
+}
+.offers h1 {
+  color: white;
+  font-family: "Cairo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.offers p {
+  color: grey;
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.plans {
+  text-align: center;
+  margin-top: 8rem;
+}
+.plans .planorpricing {
+  font-family: "Cairo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.plans .planparagraph {
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: grey;
+}
+.plans .pricingcards {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+}
+.plans .pricingcards .pricingcard {
+  border: 2px solid orange;
+  border-radius: 1rem;
+  padding: 3rem;
+  background-color: #1D1D1D;
+}
+.plans .pricingcards h1 {
+  font-family: "Cairo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.plans .pricingcards p {
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: black 2px 2px 5px;
+}
+.plans .pricingcards .price {
+  font-family: "Cairo", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 2rem;
+}
+.plans .pricingcards .package {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  flex-direction: column;
+}
+.plans .pricingcards .package .packagedetail {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+}
+.plans .pricingcards .package .packagedetail2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  margin-right: 1.8rem;
+}
+.plans .pricingcards .package .packagedetail3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  margin-left: 0.2rem;
+}
+.plans .pricingcards .package .packagedetail4 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  margin-right: 2rem;
+}
+.plans .pricingcards .package .packagedetail5 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  margin-right: 0.35rem;
+}
+.plans .pricingcards .package .packagedetail6 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  margin-right: 3.5rem;
+}
+.plans .pricingcards .buybutton {
+  padding: 1rem;
+  padding-inline: 2rem;
+  background-image: linear-gradient(to left, orange, rgb(255, 187, 0));
+  border-radius: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.plans .pricingcards .buybutton:focus {
+  outline: none;
+}
+
+.streamingservices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  width: 60%;
+  margin: auto;
+  margin-top: 12rem;
+  position: relative;
+  text-align: center;
+}
+.streamingservices .streamingserviceimage {
+  width: 80%;
+  opacity: 50%;
+  margin-left: 2rem;
+}
+.streamingservices h1 {
+  position: absolute;
+  top: 5rem;
+  color: white;
+  font-family: "Cairo", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: black 2px 2px 5px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 8rem;
+}
+.contact .contactus {
+  font-family: "Cairo", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+.contact .contactflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+.contact .contactflex h1 {
+  font-family: "Cairo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.contact .contactflex p {
+  font-family: "Cairo", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+  color: white;
+  margin-top: 5rem;
+  padding: 3rem;
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer .policies {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: row;
+}
+.footer .policies p {
+  cursor: pointer;
+}
+.footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: row;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #141414;
 }/*# sourceMappingURL=index.css.map */

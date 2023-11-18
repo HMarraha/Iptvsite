@@ -1,0 +1,16 @@
+.footer {
+    @include flex(space-evenly,center,2rem,row);
+    color: white;
+    margin-top: 5rem;
+    padding: 3rem;
+    @include font(('Cairo', sans-serif),1rem,700);
+    .policies {
+        @include flex(space-evenly,center,2rem,row); 
+        p {
+            cursor: pointer;
+        }
+    }
+    .copyright {
+        @include flex(center,center,0.5rem,row); 
+    }
+}

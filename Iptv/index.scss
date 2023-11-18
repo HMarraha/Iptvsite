@@ -2,8 +2,17 @@
 @import "./src/Sasscomponents/navbar";
 @import "./src/Sasscomponents/hero";
 @import "./src/Sasscomponents/moviesslider";
+@import './src/Sasscomponents/offers';
+@import './src/Sasscomponents/plans';
+@import './src/Sasscomponents/streamingservices';
+@import './src/Sasscomponents/contact';
+@import './src/Sasscomponents/footer';
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #141414;
 }

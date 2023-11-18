@@ -1,0 +1,75 @@
+.plans {
+    text-align: center;
+    margin-top: 8rem;
+    .planorpricing {
+        @include font(('Cairo', sans-serif),2rem, 700);
+        color: white;
+    }
+    .planparagraph {
+        @include font(('Cairo', sans-serif),1rem, 700);
+        color: grey;
+    }
+    .pricingcards {
+        margin-top: 4rem;
+        @include flex(center,center,2rem,row);
+        .pricingcard {
+            border: 2px solid orange;
+            border-radius: 1rem;
+            padding: 3rem;
+            background-color: #1D1D1D;
+        }
+        h1 {
+            @include font(('Cairo', sans-serif),2rem, 700);
+            color: white;
+        }
+        p {
+            @include font(('Cairo', sans-serif),1rem, 700);
+            color: white;
+            text-shadow: black 2px 2px 5px;
+        }
+        .price {
+            @include font(('Cairo', sans-serif),3.5rem, 700);
+            color: white;
+            margin-top: 2rem;
+        }
+        .package {
+            margin-top: 3rem;
+            @include flex(space-between,center,3rem,column);
+            .packagedetail {
+                @include flex(start,center,1rem,row);
+            }
+            .packagedetail2 {
+                @include flex(start,center,1rem,row);
+                margin-right: 1.8rem;
+            }
+            .packagedetail3 {
+                @include flex(start,center,1rem,row);
+                margin-left: 0.2rem;
+            }
+            .packagedetail4 {
+                @include flex(start,center,1rem,row);
+                margin-right: 2rem;
+            }
+            .packagedetail5 {
+                @include flex(start,center,1rem,row);
+                margin-right: 0.35rem;
+            }
+            .packagedetail6 {
+                @include flex(start,center,1rem,row);
+                margin-right: 3.5rem;
+            }
+        }
+        .buybutton {
+            padding: 1rem;
+            padding-inline: 2rem;
+            background-image: linear-gradient(to left, orange,rgb(255, 187, 0));
+            border-radius: 2rem;
+            background-color: transparent;
+            cursor: pointer;
+            @include font(('Cairo', sans-serif),1rem,700)
+        }
+        .buybutton:focus {
+            outline: none;
+        }
+    }
+}
